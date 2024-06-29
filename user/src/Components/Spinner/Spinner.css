@@ -1,0 +1,9 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 17%;
+    align-items: center;
+    height: 100%;
+  } 
+  
+  /* You can add additional styling as needed */

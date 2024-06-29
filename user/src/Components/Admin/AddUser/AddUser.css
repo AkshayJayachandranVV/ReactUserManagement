@@ -1,0 +1,102 @@
+/* AddUser.css */
+
+/* General App styling */
+.App1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* Header styling */
+.App-header1 {
+    background-color: #007bff;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group1 {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Label styling */
+.label1 {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input styling */
+.input1 {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input1:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+.button1 {
+    padding: 12px 24px;
+    color: white;
+    background-color: #C82333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button1:hover {
+    background-color: #C82333;
+}
+
+/* Error message styling */
+.errorMessage {
+    color: red;
+    font-size: 14px;
+}
+
+/* Image styling */
+img {
+    height: 80px;
+    width: 80px;
+    margin-left: 35%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Profile Image input styling */
+input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
